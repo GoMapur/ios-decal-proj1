@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B3130971C8507D3003381E4 /* ToDoItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3130961C8507D3003381E4 /* ToDoItemTableViewCell.swift */; };
+		5B3130991C851F56003381E4 /* ToDoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3130981C851F56003381E4 /* ToDoListTableViewController.swift */; };
+		5B31309D1C86BC59003381E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B31309C1C86BC59003381E4 /* Main.storyboard */; };
+		5B31309F1C86C172003381E4 /* ToDoAddNewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B31309E1C86C172003381E4 /* ToDoAddNewItemViewController.swift */; };
+		5B3130A11C86C938003381E4 /* ToDoStatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3130A01C86C938003381E4 /* ToDoStatsViewController.swift */; };
+		5BB654381C79962800086872 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB654371C79962800086872 /* AppDelegate.swift */; };
+		5BB654401C79962800086872 /* Capur_TODO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BB6543E1C79962800086872 /* Capur_TODO.xcdatamodeld */; };
+		5BB654421C79962800086872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB654411C79962800086872 /* Assets.xcassets */; };
+		5BB6544D1C7A3C1800086872 /* ToDoItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB6544C1C7A3C1800086872 /* ToDoItemList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B3130961C8507D3003381E4 /* ToDoItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItemTableViewCell.swift; sourceTree = "<group>"; };
+		5B3130981C851F56003381E4 /* ToDoListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListTableViewController.swift; sourceTree = "<group>"; };
+		5B31309C1C86BC59003381E4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5B31309E1C86C172003381E4 /* ToDoAddNewItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoAddNewItemViewController.swift; sourceTree = "<group>"; };
+		5B3130A01C86C938003381E4 /* ToDoStatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoStatsViewController.swift; sourceTree = "<group>"; };
+		5BB654341C79962800086872 /* Capur_TODO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Capur_TODO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB654371C79962800086872 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BB6543F1C79962800086872 /* Capur_TODO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Capur_TODO.xcdatamodel; sourceTree = "<group>"; };
+		5BB654411C79962800086872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BB654461C79962800086872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BB6544C1C7A3C1800086872 /* ToDoItemList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItemList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BB654311C79962700086872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BB6542B1C79962700086872 = {
+			isa = PBXGroup;
+			children = (
+				5BB654361C79962800086872 /* Capur_TODO */,
+				5BB654351C79962800086872 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BB654351C79962800086872 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BB654341C79962800086872 /* Capur_TODO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BB654361C79962800086872 /* Capur_TODO */ = {
+			isa = PBXGroup;
+			children = (
+				5B31309C1C86BC59003381E4 /* Main.storyboard */,
+				5B3130A01C86C938003381E4 /* ToDoStatsViewController.swift */,
+				5B31309E1C86C172003381E4 /* ToDoAddNewItemViewController.swift */,
+				5B3130981C851F56003381E4 /* ToDoListTableViewController.swift */,
+				5BB654371C79962800086872 /* AppDelegate.swift */,
+				5BB6544C1C7A3C1800086872 /* ToDoItemList.swift */,
+				5B3130961C8507D3003381E4 /* ToDoItemTableViewCell.swift */,
+				5BB654411C79962800086872 /* Assets.xcassets */,
+				5BB654461C79962800086872 /* Info.plist */,
+				5BB6543E1C79962800086872 /* Capur_TODO.xcdatamodeld */,
+			);
+			path = Capur_TODO;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BB654331C79962700086872 /* Capur_TODO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB654491C79962800086872 /* Build configuration list for PBXNativeTarget "Capur_TODO" */;
+			buildPhases = (
+				5BB654301C79962700086872 /* Sources */,
+				5BB654311C79962700086872 /* Frameworks */,
+				5BB654321C79962700086872 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Capur_TODO;
+			productName = Capur_TODO;
+			productReference = 5BB654341C79962800086872 /* Capur_TODO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BB6542C1C79962700086872 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Mapur;
+				TargetAttributes = {
+					5BB654331C79962700086872 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 86PV67LP79;
+					};
+				};
+			};
+			buildConfigurationList = 5BB6542F1C79962700086872 /* Build configuration list for PBXProject "Capur_TODO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BB6542B1C79962700086872;
+			productRefGroup = 5BB654351C79962800086872 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BB654331C79962700086872 /* Capur_TODO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BB654321C79962700086872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB654421C79962800086872 /* Assets.xcassets in Resources */,
+				5B31309D1C86BC59003381E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BB654301C79962700086872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB654401C79962800086872 /* Capur_TODO.xcdatamodeld in Sources */,
+				5B3130991C851F56003381E4 /* ToDoListTableViewController.swift in Sources */,
+				5B31309F1C86C172003381E4 /* ToDoAddNewItemViewController.swift in Sources */,
+				5BB6544D1C7A3C1800086872 /* ToDoItemList.swift in Sources */,
+				5BB654381C79962800086872 /* AppDelegate.swift in Sources */,
+				5B3130A11C86C938003381E4 /* ToDoStatsViewController.swift in Sources */,
+				5B3130971C8507D3003381E4 /* ToDoItemTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5BB654471C79962800086872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BB654481C79962800086872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BB6544A1C79962800086872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Capur_TODO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Mapur.Capur-TODO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5BB6544B1C79962800086872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Capur_TODO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Mapur.Capur-TODO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BB6542F1C79962700086872 /* Build configuration list for PBXProject "Capur_TODO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB654471C79962800086872 /* Debug */,
+				5BB654481C79962800086872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BB654491C79962800086872 /* Build configuration list for PBXNativeTarget "Capur_TODO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB6544A1C79962800086872 /* Debug */,
+				5BB6544B1C79962800086872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5BB6543E1C79962800086872 /* Capur_TODO.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5BB6543F1C79962800086872 /* Capur_TODO.xcdatamodel */,
+			);
+			currentVersion = 5BB6543F1C79962800086872 /* Capur_TODO.xcdatamodel */;
+			path = Capur_TODO.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5BB6542C1C79962700086872 /* Project object */;
+}
